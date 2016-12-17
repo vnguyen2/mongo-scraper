@@ -34,3 +34,5 @@ router.post('/sales-scrape', function(req,res){
   });  
   res.redirect('/');
 });
+
+module.exports = router;
